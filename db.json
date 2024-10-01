@@ -1,0 +1,132 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Porsche Macan 2025",
+      "modelo": "SUV",
+      "description": "Este SUV combina desempenho e luxo.",
+      "price": "770.000",
+      "image": "https://www.webmotors.com.br/imagens/prod/379620/PORSCHE_MACAN_TURBO_ELETRICO_37962014120730684.webp?s=fill&w=440&h=330&q=80&t=true"
+    },
+    {
+      "id": "2",
+      "name": "Jaguar I-pace 2023",
+      "modelo": "SUV",
+      "description": "Um SUV elétrico com estilo e eficiência.",
+      "price": "776.550",
+      "image": "https://www.webmotors.com.br/imagens/prod/348892/JAGUAR_IPACE_90_KW_EV400_BLACK_EDITION_AWD_ELETRICO_34889211321801873.webp?s=fill&w=440&h=330&q=80&t=true"
+    },
+    {
+      "id": "3",
+      "name": "Neta X 2025",
+      "modelo": "SUV",
+      "description": "Um SUV elétrico acessível e espaçoso.",
+      "price": "214.900",
+      "image": "https://www.webmotors.com.br/imagens/prod/379734/NETA_X_641_KW_ELETRICO_500_LUXURY_37973413061865149.webp?s=fill&w=440&h=330&q=80&t=true"
+    },
+    {
+      "id": "4",
+      "name": "Bmw Ix1 2025",
+      "modelo": "SUV",
+      "description": "Um SUV compacto com tecnologias avançadas.",
+      "price": "437.950",
+      "image": "https://www.webmotors.com.br/imagens/prod/379469/BMW_IX1_ELETRICO_XDRIVE30_M_SPORT_37946911502594450.webp?s=fill&w=440&h=330&q=80&t=true"
+    },
+    {
+      "id": "5",
+      "name": "Porsche Taycan 2024",
+      "modelo": "Sedan",
+      "description": "Um sedan esportivo totalmente elétrico.",
+      "price": "660.000",
+      "image": "https://www.webmotors.com.br/imagens/prod/348929/PORSCHE_TAYCAN_GTS_ELETRICO_34892916265665289.webp?s=fill&w=440&h=330&q=80&t=true"
+    },
+    {
+      "id": "6",
+      "name": "Bmw I4 2024",
+      "modelo": "Sedan",
+      "description": "Um sedan elétrico com design sofisticado.",
+      "price": "636.950",
+      "image": "https://www.webmotors.com.br/imagens/prod/349225/BMW_I4_ELETRICO_M50_34922512330234684.webp?s=fill&w=440&h=330&q=80&t=true"
+    },
+    {
+      "id": "7",
+      "name": "Audi Rs E-tron Gt 2024",
+      "modelo": "Sedan",
+      "description": "Um sedan de com tecnologia de ponta.",
+      "price": "1.104.990",
+      "image": "https://www.webmotors.com.br/imagens/prod/348730/AUDI_RS_ETRON_GT_ELETRICO_QUATTRO_3487301254445996.webp?s=fill&w=440&h=330&q=80&t=true"
+    },
+    {
+      "id": "8",
+      "name": "M-benz Eqe 300 2024",
+      "modelo": "Sedan",
+      "description": "Um sedan elétrico com eficiência excepcional.",
+      "price": "714.900",
+      "image": "https://www.webmotors.com.br/imagens/prod/379396/MERCEDESBENZ_EQE_300_89_KW_ELETRICO_AMG_LINE_37939615393890054.webp?s=fill&w=440&h=330&q=80&t=true"
+    },
+    {
+      "id": "9",
+      "name": "Mini Cooper 2024",
+      "modelo": "Hatchback",
+      "description": "Um hatchback estiloso e divertido de dirigir.",
+      "price": "319.990",
+      "image": "https://www.webmotors.com.br/imagens/prod/348692/MINI_COOPER_2.0_16V_TWINPOWER_GASOLINA_S_EXCLUSIVE_2P_STEPTRONIC_34869211504471671.webp?s=fill&w=440&h=330&q=80&t=true"
+    },
+    {
+      "id": "10",
+      "name": "Jac E-js1 2025",
+      "modelo": "Hatchback",
+      "description": "Um hatchback elétrico prático e econômico.",
+      "price": "132.900",
+      "image": "https://www.webmotors.com.br/imagens/prod/348840/JAC_EJS1_ELETRICO_AUTOMATICO_34884013311886626.webp?s=fill&w=440&h=330&q=80&t=true"
+    },
+    {
+      "id": "11",
+      "name": "Bmw I3 2023",
+      "modelo": "Hatchback",
+      "description": "Um hatchback elétrico com design inovador.",
+      "price": "182.000",
+      "image": "https://www.webmotors.com.br/imagens/prod/348971/BMW_I3_ELETRICO_EDRIVE_UNIQUE_FOREVER_AUTOMATICO_34897111400199323.webp?s=fill&w=440&h=330&q=80&t=true"
+    },
+    {
+      "id": "12",
+      "name": "Neta Aya 2025",
+      "modelo": "Hatchback",
+      "description": "Um hatchback elétrico acessível e eficiente.",
+      "price": "134.900",
+      "image": "https://www.webmotors.com.br/imagens/prod/379731/NETA_AYA_407_KW_ELETRICO_LUXURY_37973113054832877.webp?s=fill&w=440&h=330&q=80&t=true"
+    },
+    {
+      "id": "13",
+      "name": "Ferrari Sf90 2023",
+      "modelo": "Conversível",
+      "description": "Um Modelo esportivo com potência impressionante.",
+      "price": "7.900.000",
+      "image": "https://www.webmotors.com.br/imagens/prod/348952/FERRARI_SF90_3.9_V8_TURBO_PHEV_SPIDER_F1DCT_34895211205970355.webp?s=fill&w=440&h=330&q=80&t=true"
+    },
+    {
+      "id": "14",
+      "name": "Ferrari 296 Gts 2024",
+      "modelo": "Conversível",
+      "description": "Um conversível luxuoso e cheio de estilo.",
+      "price": "4.600.000",
+      "image": "https://www.webmotors.com.br/imagens/prod/379312/FERRARI_296_GTS_3.0_V6_TURBO_PHEV_F1DCT_37931216531516975.webp?s=fill&w=440&h=330&q=80&t=true"
+    },
+    {
+      "id": "15",
+      "name": "Bmw I8 2020",
+      "modelo": "Conversível",
+      "description": "Um conversível híbrido com design marcante.",
+      "price": "650.000",
+      "image": "https://www.webmotors.com.br/imagens/prod/348008/BMW_I8_1.5_12V_HYBRID_EDRIVE_ROADSTER_AUTOMATICO_34800815223047370.webp?s=fill&w=440&h=330&q=80&t=true"
+    },
+    {
+      "id": "16",
+      "name": "M-benz Sl 63 2024",
+      "modelo": "Conversível",
+      "description": "Um conversível de luxo com desempenho excepcional.",
+      "price": "1.689.900",
+      "image": "https://www.webmotors.com.br/imagens/prod/379699/MERCEDESBENZ_SL_63_AMG_4.0_V8_TURBO_PHEV_S_E_PERFORMANCE_4MATICPLUS_SPEEDSHIFT_37969917253211833.webp?s=fill&w=440&h=330&q=80&t=true"
+    }
+  ]
+}

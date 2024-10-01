@@ -1,0 +1,59 @@
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(70, 68, 68);
+}
+
+.imglogo {
+    width: 80px;
+    margin-right: 10px; 
+}
+
+.logo span {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.link {
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    margin-left: 40px;
+    opacity: 0.8;
+}
+
+.link:hover {
+    opacity: 1;
+}
+
+.highlight {
+    color: #8d8d8d;
+}
+
+.logout-btn {
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 40px;
+    outline: inherit;
+  }
+  

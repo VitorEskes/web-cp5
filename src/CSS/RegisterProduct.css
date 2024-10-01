@@ -1,0 +1,112 @@
+.register-containerRegis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .register-form-wrapperRegis {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 10vh;
+  }
+  
+  .register-titleRegis {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-formRegis {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-groupRegis {
+    margin-bottom: 20px;
+  }
+  
+  .form-groupRegis label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .form-inputRegis {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-inputRegis:focus {
+    outline: none;
+    border-color: #4a90e2;
+  }
+  
+  textarea.form-inputRegis {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .submit-buttonRegis {
+    background-color: #fc7a7cce;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-buttonRegis:hover {
+    background-color: #fc696b;
+  }
+  
+  .messageRegis {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .messageRegis.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .messageRegis.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+  
+  @media (max-width: 600px) {
+    .register-form-wrapperRegis {
+      padding: 20px;
+    }
+  
+    .register-titleRegis {
+      font-size: 20px;
+    }
+  
+    .form-inputRegis,
+    .submit-buttonRegis {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,152 @@
+/* Importando fonte personalizada */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Estilo Geral para o Container da Página */
+.cont-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  background: linear-gradient(to top, #d1d1d1, #ffffff);
+  padding: 20px;
+  padding-bottom: 10%;
+}
+
+/* Container de Login Principal */
+.container-login {
+  display: flex;
+  width: 80%;
+  max-width: 1000px; /* Tamanho máximo */
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  overflow: hidden; /* Para evitar que o conteúdo ultrapasse as bordas */
+}
+
+/* Lado Esquerdo: Formulário de Login */
+.login {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #f7f7f7;
+}
+
+/* Título e Subtítulo do Formulário */
+.titulo-login {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.subtitulo-login {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #666;
+}
+
+/* Estilo para os Inputs */
+.w-input {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.input-form {
+  width: calc(100% - 40px); /* Ajuste para incluir ícones */
+  padding: 10px;
+  padding-left: 40px; /* Espaço para o ícone */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input-form:focus {
+  border-color: #fc696b;
+  outline: none;
+}
+
+/* Ícones dos Inputs */
+.input-icon {
+  position: absolute;
+  left: 10px;
+  color: #fc696b;
+  font-size: 18px;
+}
+
+/* Estilo do Checkbox */
+.checkbox {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  margin-right: 10px;
+  background-color: #fc696b;
+}
+
+.checkbox label {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Botão de Login */
+.login-btn {
+  text-align: center;
+}
+
+.login-form-btn {
+  background-color: #fc696c91;
+  color: white;
+  padding: 10px 150px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.login-form-btn:hover {
+  background-color: #fc696b;
+}
+
+/* Links Adicionais */
+.additional-links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.additional-links a {
+  font-size: 14px;
+  color: #fc696c91;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.additional-links a:hover {
+  color: #fc696b;
+}
+
+/* Lado Direito: Imagem */
+.image-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fc696b; /* Fundo para contraste */
+}
+
+.login-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
