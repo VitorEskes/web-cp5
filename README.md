@@ -30,5 +30,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **Nathan Craveiro**: 555508
 
 ## 🔗 Links:
-- **<button href="https://github.com/VitorEskes/web-cp5">GitHub</button>**: 
-- **LinkedIn**: https://www.linkedin.com/feed/update/urn:li:activity:7247375013098442752/
+
+- **[GitHub](https://github.com/VitorEskes/web-cp5)**  
+- **[LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7247375013098442752/)**
+
