@@ -86,7 +86,7 @@ const Home = () => {
             <div className="card-content">
               <h3 className="card-title">SUV</h3>
               <p className="card-description">Conforto, espaço e elegancia para qualquer terreno.</p>
-              <p className="card-price">R$ 225.000</p>
+              <p className="card-price">R$ 215.000</p>
               <Link to='/produtos'><button className="card-button">Ver Mais</button></Link>
             </div>
           </div>
