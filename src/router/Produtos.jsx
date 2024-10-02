@@ -30,18 +30,6 @@ const Produtos = () => {
     }
   }, []);
 
-  const handleDelete = async (id) => {
-    try {
-      await axios.delete(`http://localhost:5000/products/${id}`);
-      const updatedAddedProducts = addedProducts.filter(productId => productId !== id);
-      setAddedProducts(updatedAddedProducts);
-      localStorage.setItem('addedProducts', JSON.stringify(updatedAddedProducts));
-      setProducts(products.filter(product => product.id !== id));
-    } catch (error) {
-      console.error('Erro ao excluir produto:', error);
-    }
-  };
-
   return (
     <section className="products-section">
       <div className="products-container">

@@ -1,7 +1,6 @@
-/* Importando fonte personalizada */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-/* Estilo Geral para o Container da Página */
 .cont-login {
   display: flex;
   justify-content: center;
@@ -12,18 +11,18 @@
   padding-bottom: 10%;
 }
 
-/* Container de Login Principal */
+
 .container-login {
   display: flex;
   width: 80%;
-  max-width: 1000px; /* Tamanho máximo */
+  max-width: 1000px; 
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  overflow: hidden; /* Para evitar que o conteúdo ultrapasse as bordas */
+  overflow: hidden; 
 }
 
-/* Lado Esquerdo: Formulário de Login */
+
 .login {
   flex: 1;
   padding: 40px;
@@ -33,7 +32,7 @@
   background: #f7f7f7;
 }
 
-/* Título e Subtítulo do Formulário */
+
 .titulo-login {
   font-size: 28px;
   font-weight: 700;
@@ -50,7 +49,7 @@
   color: #666;
 }
 
-/* Estilo para os Inputs */
+
 .w-input {
   position: relative;
   margin-bottom: 20px;
@@ -59,9 +58,9 @@
 }
 
 .input-form {
-  width: calc(100% - 40px); /* Ajuste para incluir ícones */
+  width: calc(100% - 40px); 
   padding: 10px;
-  padding-left: 40px; /* Espaço para o ícone */
+  padding-left: 40px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
@@ -73,7 +72,7 @@
   outline: none;
 }
 
-/* Ícones dos Inputs */
+
 .input-icon {
   position: absolute;
   left: 10px;
@@ -81,7 +80,7 @@
   font-size: 18px;
 }
 
-/* Estilo do Checkbox */
+
 .checkbox {
   margin: 20px 0;
   display: flex;
@@ -98,7 +97,7 @@
   color: #333;
 }
 
-/* Botão de Login */
+
 .login-btn {
   text-align: center;
 }
@@ -118,7 +117,7 @@
   background-color: #fc696b;
 }
 
-/* Links Adicionais */
+
 .additional-links {
   margin-top: 20px;
   text-align: center;
@@ -136,13 +135,13 @@
   color: #fc696b;
 }
 
-/* Lado Direito: Imagem */
+
 .image-side {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fc696b; /* Fundo para contraste */
+  background: #fc696b; 
 }
 
 .login-image {

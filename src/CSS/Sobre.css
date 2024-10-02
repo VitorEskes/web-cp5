@@ -1,20 +1,20 @@
-/* Estilo da seção principal "Sobre Nós" */
+
 .sobre-container {
     padding: 60px 10%;
     background-color: #f9f9f9;
-    display: flex; /* Mantém a disposição em linha */
-    justify-content: space-between; /* Espaço entre imagem e texto */
+    display: flex; 
+    justify-content: space-between; 
     align-items: center;
     gap: 40px;
-    flex-wrap: nowrap; /* Garante que imagem e texto fiquem lado a lado */
-    min-height: 80vh; /* Ajusta altura mínima */
+    flex-wrap: nowrap; 
+    min-height: 80vh; 
 }
 
 .sobre-content {
-    max-width: 50%; /* Limita a largura do texto */
+    max-width: 50%; 
     padding: 40px;
     border-radius: 10px;
-    text-align: left; /* Alinhamento do texto à esquerda */
+    text-align: left; 
 }
 
 .sobre-image-container {
@@ -58,11 +58,11 @@ p {
     text-decoration: underline;
 }
 
-/* Estilo da seção dos desenvolvedores */
+
 .devs-container {
-    width: 100%; /* Ocupa toda a largura */
+    width: 100%;
     padding: 40px 10%;
-    background-color: #ffffff; /* Cor de fundo */
+    background-color: #ffffff;
     text-align: center;
     padding-bottom: 10vh;
 }

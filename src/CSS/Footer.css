@@ -1,4 +1,4 @@
-/* Container Principal do Footer */
+
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     color: rgb(145, 145, 145);
   }
   
-  /* Seção de Conteúdo do Footer */
+
   .footer-content {
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@
     margin-bottom: 15px;
   }
   
-  /* Logo e Nome */
+
   .footer-logo {
     display: flex;
     align-items: center;
@@ -36,7 +36,6 @@
     color: white;
   }
   
-  /* Seção de Ícones das Redes Sociais */
   .footer-social-icons {
     display: flex;
     justify-content: center;
@@ -65,7 +64,7 @@
     color: #fc696b;
   }
   
-  /* Descrição */
+
   .footer-description {
     max-width: 600px;
     text-align: center;
@@ -74,7 +73,6 @@
     color: rgb(170, 170, 170);
   }
   
-  /* Direitos Reservados */
   .footer-rights {
     font-size: 14px;
     font-weight: 400;

@@ -116,14 +116,14 @@ h1 {
 
 .store-title {
     margin-bottom: 10px;
-    font-size: 32px; /* Tamanho maior para chamar a atenção */
-    color: #333; /* Cor padrão */
-    font-weight: bold; /* Negrito para destaque */
+    font-size: 32px; 
+    color: #333; 
+    font-weight: bold; 
   }
   
   .store-description {
-    margin-bottom: 20px; /* Espaçamento entre o título e a descrição */
-    font-size: 18px; /* Tamanho da fonte */
-    color: #555; /* Cor um pouco mais clara para a descrição */
+    margin-bottom: 20px; 
+    font-size: 18px; 
+    color: #555; 
   }
   

@@ -88,8 +88,6 @@ const Login =()=>{
                   <input type="checkbox" id="rememberMe" />
                   <label htmlFor="rememberMe">Lembre-se de mim</label>
                 </div>
-
-                <p>aaaaaaaa</p>
     
                 <div className="login-btn">
                   <button type="submit" className="login-form-btn">Login</button>

@@ -95,18 +95,3 @@
     border: 1px solid #f5c6cb;
   }
   
-  @media (max-width: 600px) {
-    .register-form-wrapperRegis {
-      padding: 20px;
-    }
-  
-    .register-titleRegis {
-      font-size: 20px;
-    }
-  
-    .form-inputRegis,
-    .submit-buttonRegis {
-      font-size: 14px;
-    }
-  }
-  
