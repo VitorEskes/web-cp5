@@ -95,7 +95,7 @@ h1 {
 
 .product-btn {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 10px;
 }
 
@@ -112,14 +112,6 @@ h1 {
 
 .product-button:hover {
     background-color: #202429;
-}
-
-.delete-button {
-    background-color: #e74c3c;
-}
-
-.delete-button:hover {
-    background-color: #c0392b;
 }
 
 .store-title {

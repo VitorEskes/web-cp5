@@ -20,7 +20,7 @@ const Nav = () => {
     sessionStorage.removeItem("senha");
     setIsLoggedIn(false);
     alert("Logout realizado com sucesso!");
-    navigate("/login");
+    navigate("/register");
   };
 
   // Função para atualizar o estado de login

@@ -5,6 +5,7 @@ import '../CSS/Produto.css';
 const Produtos = () => {
   const [products, setProducts] = useState([]);
   const [addedProducts, setAddedProducts] = useState([]);
+  const [isLoggedIn, setIsLoggedIn] = useState(false); // Estado para verificar se o usuário está logado
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -19,6 +20,14 @@ const Produtos = () => {
     };
 
     fetchProducts();
+
+    // Verificar se o usuário está logado
+    const token = sessionStorage.getItem('senha'); // Verifica se o token de login existe
+    if (token) {
+      setIsLoggedIn(true); // Usuário está logado
+    } else {
+      setIsLoggedIn(false); // Usuário não está logado
+    }
   }, []);
 
   const handleDelete = async (id) => {
@@ -38,9 +47,13 @@ const Produtos = () => {
       <div className="products-container">
         <h1 className="store-title">Bem-vindo à Nossa Loja!</h1>
         <p className="store-description">Explore nossa seleção exclusiva de produtos e encontre o que você precisa.</p>
-        <button className="register-button" onClick={() => window.location.href = '/register'}>
-          Cadastrar Produto
-        </button>
+        
+        {/* Exibir o botão "Cadastrar Produto" apenas se o usuário estiver logado */}
+        {isLoggedIn && (
+          <button className="register-button" onClick={() => window.location.href = '/register'}>
+            Cadastrar Produto
+          </button>
+        )}
 
         <div className="products-grid">
           {products.map((product) => (
@@ -51,8 +64,7 @@ const Produtos = () => {
               <p className="product-description">{product.description}</p>
               <p className="product-price">R$ {product.price}</p>
               <div className='product-btn'>
-                <button className="product-button">Comprar</button>
-                <button className="product-button delete-button" onClick={() => handleDelete(product.id)}>Excluir</button>
+                <button className="product-button">Ver mais ❱</button>
               </div>
             </div>
           ))}
