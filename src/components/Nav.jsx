@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "../CSS/Nav.css";
 import logo from "../assets/logo.jpg";
@@ -40,8 +40,8 @@ const Nav = () => {
 
       <nav className="navbar">
         <Link to="/" className="link">Home</Link>
-        <Link to="/sobre" className="link">Sobre</Link>
         <Link to="/produtos" className="link">Produtos</Link>
+        <Link to="/sobre" className="link">Sobre</Link>
 
         {isLoggedIn ? (
           <button onClick={handleLogout} className="link logout-btn">

@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 import '../CSS/Produto.css';
 
 const Produtos = () => {
@@ -47,7 +47,7 @@ const Produtos = () => {
       <div className="products-container">
         <h1 className="store-title">Bem-vindo à Nossa Loja!</h1>
         <p className="store-description">Explore nossa seleção exclusiva de produtos e encontre o que você precisa.</p>
-        
+
         {/* Exibir o botão "Cadastrar Produto" apenas se o usuário estiver logado */}
         {isLoggedIn && (
           <button className="register-button" onClick={() => window.location.href = '/register'}>
