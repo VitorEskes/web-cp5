@@ -31,6 +31,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## 🔗 Links:
 
-- <a href="https://github.com/VitorEskes/web-cp5" style="padding: 10px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 5px;">GitHub</a>
-- [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7247375013098442752/)
+- **[GitHub](https://github.com/VitorEskes/web-cp5)**  
+- **[LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7247375013098442752/)**
+
 
