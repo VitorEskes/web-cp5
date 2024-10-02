@@ -23,3 +23,8 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **React Router**: Para navegação entre as páginas.
 - **Firebase**: Autenticação de usuários.
 
+## RM Dos Integrantes:
+
+- **Vitor Alves Titus Eskes**: 555137
+- **Gabriel Matias Simões**: 556171 
+- **Nathan Craveiro**: 555508
