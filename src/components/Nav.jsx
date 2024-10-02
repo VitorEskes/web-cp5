@@ -8,10 +8,24 @@ const Nav = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    // Verifica se há um usuário logado ao carregar o componente
     const user = sessionStorage.getItem("usuario");
     if (user) {
       setIsLoggedIn(true);
     }
+
+    // Adiciona um listener para mudanças no sessionStorage
+    const handleStorageChange = () => {
+      const user = sessionStorage.getItem("usuario");
+      setIsLoggedIn(!!user);
+    };
+
+    window.addEventListener("storage", handleStorageChange);
+
+    // Remove o listener ao desmontar o componente
+    return () => {
+      window.removeEventListener("storage", handleStorageChange);
+    };
   }, []);
 
   // Função de logout
@@ -23,19 +37,11 @@ const Nav = () => {
     navigate("/register");
   };
 
-  // Função para atualizar o estado de login
-  const handleLogin = () => {
-    setIsLoggedIn(true);
-  };
-
   return (
     <header className="header">
       <Link to="/" className="logo">
         <img src={logo} alt="Logo" className="imglogo" />
-        <span>
-          Synthicar
-
-        </span>
+        <span>Synthicar</span>
       </Link>
 
       <nav className="navbar">
@@ -48,9 +54,7 @@ const Nav = () => {
             Logout
           </button>
         ) : (
-          <Link to="/login" className="link">
-            Login
-          </Link>
+          <Link to="/login" className="link">Login</Link>
         )}
       </nav>
     </header>

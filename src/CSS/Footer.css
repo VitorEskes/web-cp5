@@ -58,7 +58,7 @@
   .footer-icon {
     color: rgb(145, 145, 145);
     font-size: 24px;
-    transition: color 0.3s ease;
+    transition: color ease;
   }
   
   .footer-icon:hover {

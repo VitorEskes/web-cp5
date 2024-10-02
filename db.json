@@ -127,22 +127,6 @@
       "description": "Um conversível de luxo com desempenho excepcional.",
       "price": "1.690.000",
       "image": "https://www.webmotors.com.br/imagens/prod/379699/MERCEDESBENZ_SL_63_AMG_4.0_V8_TURBO_PHEV_S_E_PERFORMANCE_4MATICPLUS_SPEEDSHIFT_37969917253211833.webp?s=fill&w=440&h=330&q=80&t=true"
-    },
-    {
-      "id": "a641",
-      "name": "skibidi nigga car",
-      "modelo": "Conversível",
-      "price": "99999.999",
-      "description": "Skibidi nigga car",
-      "image": "https://uploads.dailydot.com/2024/07/dababy-convertible.jpg?q=65&auto=format&w=1200&ar=2:1&fit=crop"
-    },
-    {
-      "id": "81da",
-      "name": "a",
-      "modelo": "Sedan",
-      "price": "24",
-      "description": "asa",
-      "image": "https://uploads.dailydot.com/2024/07/dababy-convertible.jpg?q=65&auto=format&w=1200&ar=2:1&fit=crop"
     }
   ]
 }

@@ -19,18 +19,22 @@
   }
   
   /* Estilo para os slides */
-  .slide {
-    width: 100%;
-    max-width: 1000px;
-    height: 500px;
-    display: none;
-    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
-  }
+  /* Estilo para os slides */
+.slide {
+  width: 100%;
+  max-width: 1000px;
+  height: 500px;
+  position: absolute; /* Para sobrepor os slides */
+  opacity: 0.7;
   
-  .slide.active {
-    display: block;
-    position: relative;
-  }
+}
+
+/* Slide ativo */
+.slide.active {
+  opacity: 1;
+}
+
+
   
   /* Imagem do slide */
   .slide-image {

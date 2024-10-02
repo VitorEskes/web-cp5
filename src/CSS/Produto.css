@@ -102,16 +102,16 @@ h1 {
 .product-button {
     padding: 10px 20px;
     font-size: 16px;
-    color: #fff;
-    background-color: #444;
-    border: none;
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .product-button:hover {
-    background-color: #202429;
+    background-color: #4444441c;
 }
 
 .store-title {
