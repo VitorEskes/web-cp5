@@ -86,7 +86,7 @@ const Home = () => {
             <div className="card-content">
               <h3 className="card-title">SUV</h3>
               <p className="card-description">Conforto, espaço e elegancia para qualquer terreno.</p>
-              <p className="card-price">R$ 150.000</p>
+              <p className="card-price">R$ 225.000</p>
               <Link to='/produtos'><button className="card-button">Ver Mais</button></Link>
             </div>
           </div>
@@ -97,7 +97,7 @@ const Home = () => {
             <div className="card-content">
               <h3 className="card-title">Sedan</h3>
               <p className="card-description">Elegância e conforto para um passeio de alta classe.</p>
-              <p className="card-price">R$ 130.000</p>
+              <p className="card-price">R$ 635.000</p>
               <Link to='/produtos'><button className="card-button">Ver Mais</button></Link>
             </div>
           </div>
@@ -108,7 +108,7 @@ const Home = () => {
             <div className="card-content">
               <h3 className="card-title">Hatchback</h3>
               <p className="card-description">Compacto e econômico, perfeito para a cidade.</p>
-              <p className="card-price">R$ 90.000</p>
+              <p className="card-price">R$ 120.000</p>
               <Link to='/produtos'><button className="card-button">Ver Mais</button></Link>
             </div>
           </div>
