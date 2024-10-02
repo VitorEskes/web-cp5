@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import "../CSS/Home.css";
-import suvImage from "../assets/suv.webp";
-import sedanImage from "../assets/sedan.webp";
-import hatchbackImage from "../assets/hatckback.webp";
 import convertibleImage from "../assets/convertible.webp";
-import slide1 from "../assets/slide1.webp"
-import slide2 from "../assets/slide2.png"
-import slide3 from "../assets/slide3.jpg"
-import slide4 from "../assets/slide4.jpg"
+import hatchbackImage from "../assets/hatckback.webp";
+import sedanImage from "../assets/sedan.webp";
+import slide1 from "../assets/slide1.webp";
+import slide2 from "../assets/slide2.png";
+import slide3 from "../assets/slide3.jpg";
+import slide4 from "../assets/slide4.jpg";
+import suvImage from "../assets/suv.webp";
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -70,10 +70,10 @@ const Home = () => {
           </div>
         </div>
         <div className='subtitulo-home1'>
-        <h1  className="titulo-home">Descubra os Carros Elétricos</h1>
-        <p className='paragrafo-home'>Bem-vindo! Explore nossa seleção de carros elétricos, que oferecem desempenho, economia e zero emissões. Junte-se à revolução da mobilidade sustentável e faça a diferença hoje!</p>
+          <h1 className="titulo-home">Descubra os Carros Elétricos</h1>
+          <p className='paragrafo-home'>Bem-vindo! Explore nossa seleção de carros elétricos, que oferecem desempenho, economia e zero emissões. Junte-se à revolução da mobilidade sustentável e faça a diferença hoje!</p>
         </div>
-       
+
       </section>
 
       {/* Seção de Cards */}
@@ -119,7 +119,7 @@ const Home = () => {
             <div className="card-content">
               <h3 className="card-title">Conversível</h3>
               <p className="card-description">Liberdade e estilo em cada curva.</p>
-              <p className="card-price">R$ 200.000</p>
+              <p className="card-price">R$ 650.000</p>
               <Link to='/produtos'><button className="card-button">Ver Mais</button></Link>
             </div>
           </div>
