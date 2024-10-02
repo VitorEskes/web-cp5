@@ -1,23 +1,20 @@
 import React, { useRef, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { FaUser, FaLock } from "react-icons/fa"; // Importação dos ícones
+import { FaUser, FaLock } from "react-icons/fa"; 
 import imgLogin from "../assets/login.avif"
 import "../CSS/Login.css";
 
 
 const Login =()=>{
 
-    //Hook-useRef pega a referencia de um componente ou elemento do DOM
+
     const usuario = useRef();
     const senha = useRef();
 
-    //Hook-useState - Manipula o estado da variavel
     const [usuarios, setUsuarios]=useState([])
 
-    //Hook -useNavigate- ele redireciona para outro componente
     const navigate = useNavigate();
 
-    //criando a função de validação
 
     function validar(){
         for( let  i=0; i <usuarios.length;i++){
@@ -30,12 +27,10 @@ const Login =()=>{
     }
     
 
-    //criado a função handleSubmit
     const handleSubmit=(e)=>{
-        //previne que sua pagina faça qualquer modificação ex. load
+
         e.preventDefault();
         if(validar()){
-            //criando a autenticação
             let token=
                 Math.random().toString(16).substring(2)+
                 Math.random().toString(16).substring(2)
@@ -47,27 +42,20 @@ const Login =()=>{
         }
     }
 
-    //Hook-useEffect vai buscar os dados do login no json
 
     useEffect(()=>{
-        //pega o link da url
         fetch("http://localhost:5001/usuarios")
-        //promise
         .then((res)=>{
-            //converte os dados para json
             return res.json();
         })
         .then((res)=>{
-            //recebe as alterações da variavel
             setUsuarios(res)
         })
-        //retrona um array vazio
     },[])
 
     return (
         <section className="cont-login">
           <div className="container-login">
-            {/* Lado Esquerdo: Formulário de Login */}
             <div className="login">
               <form className="login-form" onSubmit={handleSubmit}>
                 <span className="titulo-login">Bem-vindo!</span>
@@ -75,24 +63,24 @@ const Login =()=>{
                 <span className="subtitulo-login">Faça seu login para continuar</span>
                 
                 <div className="w-input">
-                  <FaUser className="input-icon" /> {/* Ícone de usuário */}
+                  <FaUser className="input-icon" />
                   <input
                     type="text"
                     className="input-form"
                     id="usuario"
                     ref={usuario}
-                    placeholder="Usuário" // Adicionei placeholder
+                    placeholder="Usuário"
                   />
                 </div>
     
                 <div className="w-input">
-                  <FaLock className="input-icon" /> {/* Ícone de senha */}
+                  <FaLock className="input-icon" />
                   <input
                     type="password"
                     className="input-form"
                     id="senha"
                     ref={senha}
-                    placeholder="Senha" // Adicionei placeholder
+                    placeholder="Senha"
                   />
                 </div>
     
@@ -114,10 +102,9 @@ const Login =()=>{
               </form>
             </div>
     
-            {/* Lado Direito: Imagem */}
             <div className="image-side">
               <img
-                src={imgLogin} // Substitua por uma URL real de imagem
+                src={imgLogin} 
                 alt="Login Illustration"
                 className="login-image"
               />

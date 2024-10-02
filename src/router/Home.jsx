@@ -14,34 +14,30 @@ const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [slide1, slide2, slide3, slide4];
 
-  // Função para avançar para o próximo slide
   const nextSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
   };
 
-  // Função para retroceder para o slide anterior
   const prevSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide - 1 + slides.length) % slides.length);
   };
 
-  // Troca automática de slides a cada 3 segundos
   useEffect(() => {
     const autoSlide = setInterval(nextSlide, 3000);
-    return () => clearInterval(autoSlide); // Limpa o intervalo quando o componente desmonta
+    return () => clearInterval(autoSlide); 
   }, []);
 
   return (
     <>
-      {/* Seção de Título e Slideshow */}
       <section className="secao1">
         <h1 className="titulo-home">Bem-vindo à Synthicar</h1>
         <div className="slideshow-container">
-          {/* Botão para o slide anterior */}
+
           <button className="prev-slide" onClick={prevSlide}>
-            &#10094; {/* HTML Entity para seta para a esquerda */}
+            &#10094;
           </button>
 
-          {/* Mapeamento das imagens para exibir apenas o slide atual */}
+
           {slides.map((slide, index) => (
             <div
               key={index}
@@ -53,12 +49,10 @@ const Home = () => {
             </div>
           ))}
 
-          {/* Botão para o próximo slide */}
           <button className="next-slide" onClick={nextSlide}>
-            &#10095; {/* HTML Entity para seta para a direita */}
+            &#10095;
           </button>
 
-          {/* Indicadores de Slide */}
           <div className="slide-indicators">
             {slides.map((_, index) => (
               <span
@@ -76,7 +70,6 @@ const Home = () => {
 
       </section>
 
-      {/* Seção de Cards */}
       <section className="secao-cards">
         <h2 className="subtitulo-home">Explore Nossos Modelos de Carros</h2>
         <div className="card-container">

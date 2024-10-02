@@ -6,7 +6,6 @@ import "../CSS/Footer.css";
 const Footer = () => {
   return (
     <footer className='footer-container'>
-      {/* Nome e Logo */}
       <div className='footer-content'>
         <div className='footer-logo'>
           <span className='footer-logo-text'>Synthicar</span>
@@ -17,7 +16,6 @@ const Footer = () => {
         A melhor plataforma para você que gosta de conforto, espaço e elegancia para qualquer terreno
       </p>
 
-      {/* Ícones das Redes Sociais */}
       <div className='footer-social-icons'>
         <a href='https://facebook.com' target='_blank' rel='noopener noreferrer' className='footer-icon'>
           <FaFacebook />
@@ -34,7 +32,6 @@ const Footer = () => {
       </div>
 
 
-      {/* Direitos Reservados */}
       <h4 className='footer-rights'>© 2024 Synthicar. Todos os direitos reservados.</h4>
     </footer>
   );

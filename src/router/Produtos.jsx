@@ -5,7 +5,7 @@ import '../CSS/Produto.css';
 const Produtos = () => {
   const [products, setProducts] = useState([]);
   const [addedProducts, setAddedProducts] = useState([]);
-  const [isLoggedIn, setIsLoggedIn] = useState(false); // Estado para verificar se o usuário está logado
+  const [isLoggedIn, setIsLoggedIn] = useState(false); 
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -21,12 +21,12 @@ const Produtos = () => {
 
     fetchProducts();
 
-    // Verificar se o usuário está logado
-    const token = sessionStorage.getItem('senha'); // Verifica se o token de login existe
+
+    const token = sessionStorage.getItem('senha'); 
     if (token) {
-      setIsLoggedIn(true); // Usuário está logado
+      setIsLoggedIn(true); 
     } else {
-      setIsLoggedIn(false); // Usuário não está logado
+      setIsLoggedIn(false); 
     }
   }, []);
 
@@ -48,7 +48,6 @@ const Produtos = () => {
         <h1 className="store-title">Bem-vindo à Nossa Loja!</h1>
         <p className="store-description">Explore nossa seleção exclusiva de produtos e encontre o que você precisa.</p>
 
-        {/* Exibir o botão "Cadastrar Produto" apenas se o usuário estiver logado */}
         {isLoggedIn && (
           <button className="register-button" onClick={() => window.location.href = '/register'}>
             Cadastrar Produto

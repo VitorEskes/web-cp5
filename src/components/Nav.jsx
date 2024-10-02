@@ -8,13 +8,11 @@ const Nav = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Verifica se há um usuário logado ao carregar o componente
     const user = sessionStorage.getItem("usuario");
     if (user) {
       setIsLoggedIn(true);
     }
 
-    // Adiciona um listener para mudanças no sessionStorage
     const handleStorageChange = () => {
       const user = sessionStorage.getItem("usuario");
       setIsLoggedIn(!!user);
@@ -22,13 +20,11 @@ const Nav = () => {
 
     window.addEventListener("storage", handleStorageChange);
 
-    // Remove o listener ao desmontar o componente
     return () => {
       window.removeEventListener("storage", handleStorageChange);
     };
   }, []);
 
-  // Função de logout
   const handleLogout = () => {
     sessionStorage.removeItem("usuario");
     sessionStorage.removeItem("senha");

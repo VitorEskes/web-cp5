@@ -2,14 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../CSS/Sobre.css';
 import sobreImage from '../assets/imgsobre.jpg';
-import dev1 from '../assets/vitor.png'; // Imagem do desenvolvedor 1
-import dev2 from '../assets/gabriel.png'; // Imagem do desenvolvedor 2
-import dev3 from '../assets/nathan.png'; // Imagem do desenvolvedor 3
+import dev1 from '../assets/vitor.png'; 
+import dev2 from '../assets/gabriel.png'; 
+import dev3 from '../assets/nathan.png'; 
 
 const Sobre = () => {
     return (
         <>
-            {/* Seção principal de "Sobre Nós" */}
             <section className="sobre-container">
                 <div className="sobre-content">
                     <h1 className='hsob'>Sobre Nós</h1>
@@ -29,7 +28,7 @@ const Sobre = () => {
                 </div>
             </section>
 
-            {/* Seção dos desenvolvedores */}
+
             <section className="devs-container">
                 <h2>Conheça os Desenvolvedores</h2>
                 <div className="devs">

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import "../CSS/RegisterProduct.css"; // Atualize o caminho se necessário
+import "../CSS/RegisterProduct.css"; 
 
 const RegisterProduct = () => {
   const [name, setName] = useState('');
@@ -56,11 +56,11 @@ const RegisterProduct = () => {
               Modelo:
               <select
                 value={modelo}
-                onChange={(e) => setModelo(e.target.value)} // Atualizando o estado para 'modelo'
+                onChange={(e) => setModelo(e.target.value)} 
                 required
                 className="form-inputRegis"
               >
-                <option value="">Selecione um modelo</option> {/* Opção padrão */}
+                <option value="">Selecione um modelo</option>
                 <option value="SUV">SUV</option>
                 <option value="Sedan">Sedan</option>
                 <option value="Hatchback">Hatchback</option>
