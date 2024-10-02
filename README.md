@@ -28,3 +28,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **Vitor Alves Titus Eskes**: 555137
 - **Gabriel Matias Simões**: 556171 
 - **Nathan Craveiro**: 555508
+
+## 🔗 Links:
+- **GitHub**: https://github.com/VitorEskes/web-cp5
+- **LinkedIn**: https://www.linkedin.com/feed/update/urn:li:activity:7247375013098442752/
